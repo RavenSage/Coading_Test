@@ -1,0 +1,31 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.search-form {
+display: flex;
+  justify-content: center;
+  gap: 2%;
+  margin-bottom: 3%;
+}
+
+.search-input {
+  width: 100%;
+}
+
+.search-button {
+  width: 20%;
+}
+
+/* tr:nth-child(even) {
+  background-color: #dddddd;
+} */
